@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Senai</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Workshop Senai</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#schedule">Agenda</a></li>
+                    <li><a href="#register">Inscreva-se</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Transforme suas ideias em realidade!</h2>
+            <p>Participe do nosso workshop e aprenda técnicas inovadoras com especialistas da área.</p>
+            <a href="#register" class="btn">Inscreva-se Agora</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div class="section-content">
+            <h2>Sobre o Workshop</h2>
+            <p>Este workshop oferece uma oportunidade única para aprender e crescer. Com uma equipe de instrutores experientes, você terá acesso a técnicas, dicas e insights valiosos.</p>
+        </div>
+    </section>
+
+    <section id="schedule" class="container">
+        <div class="section-content">
+            <h2>Agenda</h2>
+            <div class="schedule-item">
+                <h3>Dia 1</h3>
+                <p>Introdução e Técnicas Básicas</p>
+            </div>
+            <div class="schedule-item">
+                <h3>Dia 2</h3>
+                <p>Sessões Práticas e Estudos de Caso</p>
+            </div>
+            <div class="schedule-item">
+                <h3>Dia 3</h3>
+                <p>Projeto Final e Apresentações</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="container">
+        <div class="section-content">
+            <h2>Inscreva-se</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="section-content">
+            <h2>Contato</h2>
+            <p>Se você tiver alguma dúvida, entre em contato conosco:</p>
+            <p>Email: contato@workshopcriativo.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Workshop Criativo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

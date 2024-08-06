@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #D3D3D3; /* Cinza claro para o texto */
+    line-height: 1.6;
+    background-color: #000000; /* Fundo preto */
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #4B0082, #003D79); /* Gradiente de roxo escuro para azul escuro */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Amarelo dourado para o efeito hover */
+}
+
+/* Seção Hero */
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1600x900') no-repeat center center/cover; /* Gradiente escuro sobre a imagem de fundo */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #FFD700; /* Amarelo dourado */
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #FFC107; /* Amarelo mais claro */
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Seções */
+section {
+    padding: 60px 0;
+    background-color: #2C2C2C; /* Cinza escuro para o fundo das seções */
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF; /* Branco para os títulos */
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.schedule-item {
+    background: linear-gradient(135deg, #003D79, #6A0D91); /* Gradiente de azul escuro para roxo escuro */
+    color: #FFFFFF; /* Branco para o texto */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #FFFFFF; /* Branco para os labels */
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #4B0082; /* Roxo escuro para a borda dos inputs */
+    border-radius: 5px;
+    background-color: #333333; /* Cinza escuro para o fundo dos inputs */
+    color: #FFFFFF; /* Branco para o texto dos inputs */
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #6A0D91; /* Roxo escuro para o botão */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #4B0082; /* Roxo escuro para efeito de hover do botão */
+}
+
+/* Rodapé */
+footer {
+    background: linear-gradient(135deg, #003D79, #4B0082); /* Gradiente de azul escuro para roxo escuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
